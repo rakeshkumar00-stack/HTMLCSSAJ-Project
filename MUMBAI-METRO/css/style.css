@@ -83,6 +83,9 @@ body{
 .panel-footer div.row{
   margin-bottom:35px;
 }
+.panel-footer a{
+  align-content: center;
+}
 /**  End Footer **/
 
 /* Start Home page*/
@@ -96,29 +99,13 @@ body{
   border: 2px solid #3f0c1f;
 }
 
-#menu-tile, #specials-tile, #map-tile{
-  background-color: white;
-  height: 250px;
-  width: 96%;
-  margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3f0c1f;
-  overflow: hidden;
-}
-#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
-  box-shadow: 0 1px 5px 1px #cccccc;
-}
-#menu-tile span{
-  position: absolute;
-  bottom: 0;
-  right: 0;
+.heading{
+  border: 10px;
+  background-color: #000;
   width: 100%;
   text-align: center;
-  font-size: 1.5em;
   text-transform: uppercase;
-  background-color: #000;
-  color: #fff;
-  opacity: .8;
+  margin-bottom: 25px;
 }
 
 /* End home page   */
@@ -175,10 +162,18 @@ body{
     padding-right: 0px;
     padding-left: 0px;
   }
+  .heading{
+    font-size: 2em;
+    border: 10px;
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
 }
 
 /*****    Super small devices like iphone 4******/
-
 @media (max-width:479px) {
   .navbar-brand h1{
     padding-top: 5px;
