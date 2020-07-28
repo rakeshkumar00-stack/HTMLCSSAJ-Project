@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
   </head>
   <body>
+    <!-- Start of Header-->
     <header>
       <nav id="header-nav" href="top" class="navbar navbar-default">
         <div class="container">
@@ -23,6 +24,7 @@
                     <span class="glyphicon glyphicon-star" style="letter-spacing:0.2em; font-weight: bold;">Official Webpage</span>
                   </p>
               </div>
+              <!-- Button to be collapsed-->
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
                 <span class="sr-only">Toogle navigations</span>
                 <span class="icon-bar"></span>
@@ -30,6 +32,7 @@
                 <span class="icon-bar"></span>
               </button>
           </div>
+          <!-- MenuBar Item on Right Side-->
           <div id="collapsable-nav" class="collapse navbar-collapse">
             <ul id="nav-list" class="nav navbar-nav navbar-right">
               <li>
@@ -46,8 +49,12 @@
               </li>
               <br class="visible-sm">
               <li>
-                  <a href="#">
-                  <span class="glyphicon glyphicon-globe"></span><br class="hidden-xs">MAPS</a>
+                  <a href="index.html #map">
+                  <span class="glyphicon glyphicon-globe"></span><br class="hidden-xs">MAP</a>
+              </li>
+              <li>
+                  <a href="index.html #History">
+                  <span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs">HISTORY</a>
               </li>
               <br class="hidden-xs">
               <li>
@@ -65,13 +72,12 @@
                   <span class="glyphicon glyphicon-heart"></span><br class="hidden-xs">CUSTOMER CARE</a>
               </li>
               <li>
-                  <a href="#">
+                  <a href="#ABOUT">
                   <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">ABOUT</a>
               </li>
-
             </ul>
-
           </div>
+          <!--End of MenuBar Item-->
         </div>
       </nav>
     </header>
@@ -81,36 +87,47 @@
     <marquee>COVID 19 Alert&nbsp;:&nbsp;During COVID-19, "You are Responsible for Your Own Health.
       Mumbai Metro One services will continue to remain suspended till further notice."</marquee>
     <!-- Alert Message using marquee -->
-
-    <!-- Start of body-->
+    <!-- Start of Body-->
     <div class="container">
       <h1>Home</h1>
       Home Page is Adding very soon And also starting Booking page on it.
     </div>
-    <!-- End of body-->
+    <!-- End of Body Content -->
+
+
 
     <!--Start of Footer-->
     <footer class="panel-footer">
       <div class="container">
 
         <div class="row">
-          <section class="col-sm-4">
-
+          <section id="hours" class="col-sm-4">
+            <span>Best Viewed on:</span><br>
+            <p>Best viewed in Internet Explorer 9 & above, at a
+            resolution of 1024 X 768 or higher.</p>
+            <hr class="visible-xs">
           </section>
 
-          <section class="col-sm-4">
-
+          <section id="address" class="col-sm-4">
+            <span>Main Office Branch:</span><br>
+            <p>Mumbai Metro One Depot, J P Road, <br>
+              Four Bunglows-andheri West, Mumbai - 400053,<br>
+               D N Nagar .</p>
+            <hr class="visible-xs">
           </section>
-
-          <section class="col-sm-4">
-
-          </section>
+            <section id="testimonials" class="col-sm-3">
+              <p>Indian construction firm <strong>J Kumar </strong>
+                Infraprojects has won a Rs19. 98bn ($280.56m)
+                contract for the Mumbai Metro Rail project in Maharashtra.</p>
+              <p>Awarded by (MMRDA)</p>
+            </section>
+          </div>
+          <a href="#top" class"text-right" style="text-decoration:none;">Back to top</a>
+          <div class="text-center">Copyright &copy; 2020 BY RAKESH</div>
         </div>
-        <div class="text-center">Copyright &copy; 2020 BY RAKESH</div>
-        <a href="#top" class"text-right" style="text-decoration:none;">Back to top</a>
-      </div>
     </footer>
     <!--End of footer-->
+
 
     <!--Jquery (Bootstrap JS plugins depend on it)-->
     <script src="https://code.jquery.com/jquery-2.1.4.js" integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4=" crossorigin="anonymous"></script>
