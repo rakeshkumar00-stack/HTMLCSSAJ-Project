@@ -6,11 +6,11 @@ body{
   font-size: 16px;
   box-sizing: border-box;
   color:#fff;
-  background-color: #CC0033 ;
+  background-color: #800339fa ;
   font-family: 'Oxygen', sans-serif;
 }
 #header-nav{
-  background-color: #FFCC33;
+  background-color: #d3e04f;
   border-radius: 0px 0px 20px 20px;
   border: 0;
 }
@@ -18,7 +18,7 @@ body{
 #Logo-img{
   background: url('../images/Logo-metro.png') no-repeat;
   width:150px;
-  height: 140px;
+  height: 120px;
   margin: 10px 10px 10px 0;
   border-radius: 40px;
 }
@@ -72,6 +72,7 @@ body{
   margin-top: -50px;
 }
 /* End Header*/
+
 
 /*Footer*/
 .panel-footer{
@@ -152,7 +153,6 @@ font-weight: bold;
   margin-top: 2px;
   margin-bottom: 25px;
   width: 97%;
-  padding: ;
 }
 p {
     display: block;
@@ -162,6 +162,15 @@ p {
     margin-inline-end: 0px;
 }
 /*History section end*/
+
+/*ABOUT section Start*/
+.frm{
+  border: 4px solid black;
+  background-color: #9dfbf9;
+  height: 600px;
+}
+/*ABOUT section end*/
+
 /* End home page   */
 
 /***Large devices only****/
@@ -180,6 +189,25 @@ p {
 }
 /***Small devices only***/
 @media (min-width:768px) and (max-width:991px) {
+  #Logo-img{
+    background: url('../images/Logo-metro-small.png') no-repeat;
+    width:130px;
+    height: 90px;
+    margin: 10px 10px 10px 0;
+    border-radius: 25px;
+  }
+  .navbar-brand{
+    padding-top: 8px;
+    height: 60px;
+  }
+  .navbar-brand h1{
+    padding-top: 8px;
+    font-size: 3vw; /*** 1vw = 1% of viewport width***/
+  }
+  .navbar-brand p{
+    font-size: .6em;
+    margin-top: 10px;
+  }
   .container .jumbotron{
     padding-right: 0px;
     padding-left: 0px;
@@ -198,7 +226,7 @@ p {
   }
   .navbar-brand p{
     font-size: .6em;
-    margin-top: 12px;
+    margin-top: 5px;
   }
 
   #collapsable-nav a{
