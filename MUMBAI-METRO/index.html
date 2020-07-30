@@ -25,7 +25,7 @@
                   </p>
               </div>
               <!-- Button to be collapsed-->
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
                 <span class="sr-only">Toogle navigations</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -37,15 +37,15 @@
             <ul id="nav-list" class="nav navbar-nav navbar-right">
               <li>
                   <a href="Home-page.html" >
-                  <span  class="glyphicon glyphicon-home"></span><br class="hidden-xs">HOME</a>
+                  <span  class="glyphicon glyphicon-home"></span><br class="hidden-xs">TEAM</a>
               </li>
               <li>
-                  <a href="#" >
+                  <a href="#yourmetro" >
                   <span  class="glyphicon glyphicon-check"></span><br class="hidden-xs">YOUR METRO</a>
               </li>
               <li>
-                  <a href="#">
-                  <span class="glyphicon glyphicon-list"></span><br class="hidden-xs">STATIONS</a>
+                  <a href="#stations">
+                  <span class="glyphicon glyphicon-list"></span><br class="hidden-xs">METRO PLAN</a>
               </li>
               <br class="visible-sm">
               <li>
@@ -58,7 +58,7 @@
               </li>
               <br class="hidden-xs">
               <li>
-                  <a href="#">
+                  <a href="" id="link">
                   <span class="glyphicon glyphicon-piggy-bank"></span><br class="hidden-xs">E WALLET</a>
               </li>
 
@@ -89,18 +89,82 @@
     <!-- Alert Message using marquee -->
 <!-- Start of Body-->
 
-    <div id="main-content "class="container">
+    <div id="main-content" class="container">
       <!--METRO PICTURE-->
         <div class="jumbotron">
             <img src="images/Metro-Large.jpg" alt="picture of Metro" width="device-width" class="img-responsive">
         </div><!--Picture fixed-->
 
       <!--Your Metro section start-->
-
+      <h1 class="heading" id="yourmetro">Your metro</h1>
+          <div class="container" >
+            <h1 style="background-color:#980707">DUE TO PANDEMIC MAIN SECTION IS REMOVED!!</h1>
+            <p class="para">WE WILL WORK ON IT LATER!</p>
+          </div>
       <!--Your Metro section End-->
 
       <!--STATIONS section start-->
-
+      <h1 class="heading" id="stations">Original Mumbai Metro master plan</h1>
+          <div>
+            <table class="table" border="2">
+              <tbody>
+                <tr>
+                  <th>Phase</th>
+                  <th>Line</th>
+                  <th>Name of the corridor</th>
+                  <th>Length (km)</th>
+                </tr>
+                <tr>
+                  <td rowspan="3">Phase I<br>(2006–2011)</td>
+                  <td>1</td>
+                  <td>Versova - Andheri – Ghatkopar	</td>
+                  <td>11.07</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Bandra - Kurla – Mankhurd</td>
+                  <td>13.37</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Colaba - Bandra – Seepz</td>
+                  <td>38.24</td>
+                </tr>
+                <tr>
+                  <td rowspan="3">Phase II <br> (2011–2016)</td>
+                  <td>4</td>
+                  <td>Charkop - Dahisar</td>
+                  <td>7.5</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Ghatkopar – Mulund</td>
+                  <td>12.4</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>BKC - Kanjurmarg via Airport</td>
+                  <td>19.5</td>
+                </tr>
+                <tr>
+                  <td rowspan="3">Phase III <br> (2016–2021)</td>
+                  <td>7</td>
+                  <td>Bandra (E) - Dahisar (E)</td>
+                  <td>16.5</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>	Hutatma Chowk – Ghatkopa</td>
+                  <td>21.8</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>Sewri – Prabhadevi</td>
+                  <td>3.5</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
       <!--STATIONS section End-->
 
       <!--Map section Start-->
@@ -139,22 +203,33 @@
 
 
       <!--STATIONS section start-->
+
       <!--STATIONS section End-->
 
 
       <!--GALLERY section start-->
       <h1 class="heading" id="GALLERY">GALLERY</h1>
           <div>
-            <marquee style="background: white;">
-          <img src="images/gallery/img1.png" alt="img1" width="300px" height="400px">
-          <img src="images/gallery/img2.gif" alt="img2" width="300px" height="400px">
-          <img src="images/gallery/img3.png" alt="img3" width="300px" height="400px"></marquee>
+        <marquee style="background: white;">
+            <img src="images/gallery/img1.png" alt="img1" width="400px" height="400px">
+            <img src="images/gallery/img2.png" alt="img2" width="400px" height="400px">
+            <img src="images/gallery/img3.png" alt="img3" width="400px" height="400px">
+            <img src="images/gallery/img4.png" alt="img4" width="400px" height="400px">
+            <img src="images/gallery/img5.png" alt="img5" width="400px" height="400px">
+            <img src="images/gallery/img6.png" alt="img6" width="400px" height="400px">
+            <img src="images/gallery/img7.png" alt="img7" width="400px" height="400px">
+            <img src="images/gallery/img8.png" alt="img8" width="400px" height="400px">
+            <img src="images/gallery/img9.png" alt="img9" width="400px" height="400px">
+            <img src="images/gallery/img10.png" alt="img10" width="400px" height="400px">
+            <img src="images/gallery/img11.png" alt="img11" width="400px" height="400px">
+            <img src="images/gallery/img12.png" alt="img12" width="400px" height="400px">
+        </marquee>
           </div>
       <!--GALLERY section End-->
 
 
       <!--ABOUT section start-->
-      <h1 class="heading" id="ABOUT">About scetion</h1>
+      <h1 class="heading" id="ABOUT">About</h1>
           <div>
             <iframe class="col-sm-6 col-xs-12 frm " src="images/About.jpg" height="400px"></iframe> <br class="visible-md">
             <iframe class="col-sm-6 col-xs-12 frm " src="images/INFORMATION.txt" height="400px" style="background-color:white;"></iframe>
@@ -201,7 +276,7 @@
 
 
     <!--Jquery (Bootstrap JS plugins depend on it)-->
-    <script src="https://code.jquery.com/jquery-2.1.4.js" integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4=" crossorigin="anonymous"></script>
+    <script src="jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
   </body>

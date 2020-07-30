@@ -1,60 +1,137 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title> Login Page </title>
-<style>
-Body {
-  font-family: Calibri, Helvetica, sans-serif;
-  background-color: #800339fa;
-}
-button {
-       background-color: #4CAF50;
-       width: 100%;
-        color: orange;
-        padding: 15px;
-        margin: 10px 0px;
-        border: none;
-        cursor: pointer;
-         }
- form {
-        border: 3px solid #f1f1f1;
-    }
- input[type=text], input[type=password] {
-        width: 100%;
-        margin: 8px 0;
-        padding: 12px 20px;
-        display: inline-block;
-        border: 2px solid green;
-        box-sizing: border-box;
-    }
- button:hover {
-        opacity: 0.7;
-    }
-  .cancelbtn {
-        width: auto;
-        padding: 10px 18px;
-        margin: 10px 5px;
-    }
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <title>MUMBAI METRO</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    button {
+           background-color: #2e007d;
+           width: 100%;
+            color: #66ffff;
+            padding: 15px;
+            margin: 10px 0px;
+            border: none;
+            cursor: pointer;
+             }
+     form {
+            border: 3px solid #f1f1f1;
+            padding: 10px;
+            color: black;
+            background-color: #47d64f;
+        }
+     input[type=text], input[type=password] {
+            width: 100%;
+            margin: 8px 0;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 2px solid green;
+            box-sizing: border-box;
+        }
+     button:hover {
+            opacity: 0.7;
+        }
+      .cancelbtn {
+            width: auto;
+            padding: 10px 18px;
+            margin: 10px 5px;
+        }
+    </style>
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Start of Header-->
+    <header>
+      <nav id="header-nav" href="top" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+              <a href="index.html" class="pull-left visible-md visible-sm visible-lg">
+                <div id="Logo-img" alt="Logo Image"></div>
+              </a>
+              <div class="navbar-brand">
+                  <a href="index.html"><h1 style="">MUMBAI METRO</h1></a>
+                  <p>
+                    <span class="glyphicon glyphicon-star" style="letter-spacing:0.2em; font-weight: bold;">Official Webpage</span>
+                  </p>
+              </div>
+              <!-- Button to be collapsed-->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                <span class="sr-only">Toogle navigations</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+          </div>
+          <!-- MenuBar Item on Right Side-->
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li>
+                  <a href="Home-page.html" >
+                  <span  class="glyphicon glyphicon-home"></span><br class="hidden-xs">TEAM</a>
+              </li>
+              <li>
+                  <a href="index.html#yourmetro" >
+                  <span  class="glyphicon glyphicon-check"></span><br class="hidden-xs">YOUR METRO</a>
+              </li>
+              <li>
+                  <a href="index.html#stations">
+                  <span class="glyphicon glyphicon-list"></span><br class="hidden-xs">STATIONS</a>
+              </li>
+              <br class="visible-sm">
+              <li>
+                  <a href="index.html #map">
+                  <span class="glyphicon glyphicon-globe"></span><br class="hidden-xs">MAP</a>
+              </li>
+              <li>
+                  <a href="index.html #History">
+                  <span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs">HISTORY</a>
+              </li>
+              <br class="hidden-xs">
+              <li>
+                  <a href="#" id="link">
+                  <span class="glyphicon glyphicon-piggy-bank"></span><br class="hidden-xs">E WALLET</a>
+              </li>
 
+              <li>
+                  <a href="index.html#GALLERY">
+                  <span class="glyphicon glyphicon-picture"></span><br class="hidden-xs">GALLERY</a>
+              </li>
+              <br class="visible-sm">
+              <li  class="active">
+                  <a href="login.html" >
+                  <span class="glyphicon glyphicon-user"></span><br class="hidden-xs">MY ACCOUNT</a>
+              </li>
+              <li>
+                  <a href="index.html#ABOUT">
+                  <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs">ABOUT</a>
+              </li>
+            </ul>
+          </div>
+          <!--End of MenuBar Item-->
+        </div>
+      </nav>
+    </header>
+    <!-- End of Header  -->
 
- .container {
-        padding: 25px;
-        background-color: lightblue;
-    }
-</style>
-</head>
-<body>
-    <center> <h1>Login Form </h1> </center>
-    <form action="index.html" method="POST">
+    <!-- Alert Message using marquee -->
+    <marquee>COVID 19 Alert&nbsp;:&nbsp;During COVID-19, "You are Responsible for Your Own Health.
+      Mumbai Metro One services will continue to remain suspended till further notice."</marquee>
+    <!-- Alert Message using marquee -->
+    <!-- Start of Body-->
+    <center> <h1 style="background-color: #d4b067">Login Form </h1> </center>
+    <form action="../MUMBAI-METRO/index.html" method="POST">
         <div class="container">
           <h2>NOTE: Username and passoward will be providing only after registeration in main site!!</h2>
             <label>Select Role:</label>
                 <select name="Role" id="role" style="width="100%"" >
-                      <option value="free">User</option>
+                      <option value="">---User---</option>
                       <option value="starter" selected>Agent </option>
                       <option value="professional">Professional</option>
-                      <option value="corporate">Corporate</option>
+                      <option value="corporate">Local</option>
                 </select>  <br>
             <label>Username  : </label>
             <input type="text" placeholder="Enter Username" name="username" required><br>
@@ -63,9 +140,50 @@ button {
             <button type="submit">Login</button>
             <input type="checkbox" checked="checked"> Remember me
             <button type="button" class="cancelbtn"> Cancel</button>
-            <h3>Note: Ayush is allowed to login in this form!!😂😂😂</h3>
+            <h3>Note: This form is just for fun!!😂😂😂</h3>
             Forgot <a href="#"> password? </a>
         </div>
     </form>
-</body>
+    <!-- End of Body Content -->
+
+
+
+    <!--Start of Footer-->
+    <footer class="panel-footer">
+      <div class="container">
+
+        <div class="row">
+          <section id="hours" class="col-sm-4">
+            <span>Best Viewed on:</span><br>
+            <p>Best viewed in Internet Explorer 9 & above, at a
+            resolution of 1024 X 768 or higher.</p>
+            <hr class="visible-xs">
+          </section>
+
+          <section id="address" class="col-sm-4">
+            <span>Main Office Branch:</span><br>
+            <p>Mumbai Metro One Depot, J P Road, <br>
+              Four Bunglows-andheri West, Mumbai - 400053,<br>
+               D N Nagar .</p>
+            <hr class="visible-xs">
+          </section>
+            <section id="testimonials" class="col-sm-3">
+              <p>Indian construction firm <strong>J Kumar </strong>
+                Infraprojects has won a Rs19. 98bn ($280.56m)
+                contract for the Mumbai Metro Rail project in Maharashtra.</p>
+              <p>Awarded by (MMRDA)</p>
+            </section>
+          </div>
+          <a href="#top" class"text-right" style="text-decoration:none;">Back to top</a>
+          <div class="text-center">Copyright &copy; 2020 BY RAKESH</div>
+        </div>
+    </footer>
+    <!--End of footer-->
+
+
+    <!--Jquery (Bootstrap JS plugins depend on it)-->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
